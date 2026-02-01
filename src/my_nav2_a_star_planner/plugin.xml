@@ -1,0 +1,8 @@
+<library path="my_nav2_a_star_planner">
+  <class
+    name="my_nav2_a_star_planner/a_star_planner"
+    type="my_nav2_a_star_planner::a_star_planner"
+    base_class_type="nav2_core::GlobalPlanner">
+    <description>A* global planner plugin</description>
+  </class>
+</library>
