@@ -1,0 +1,20 @@
+# ROS 2 / colcon
+build/
+install/
+log/
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# VS Code database files (in case)
+*.vc.db
+*.vc.db-shm
+*.vc.db-wal
+
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
