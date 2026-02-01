@@ -20,18 +20,20 @@ The planners are integrated with Nav2 and demonstrated using TurtleBot3 in Gazeb
 ## Repository structure
 
 ```
-my_nav2_a_star_planner/
-my_nav2_a_star_hybrid_planner/
-my_nav2_bringup/
-maps/
-videos/
 README.md
+maps
+  my_map.pgm
+  my_map.yaml
+videos
+  a_star_hybrid.webm
+  a_star.webm
+src
+  my_nav2_a_star_hybrid_planner
+  my_nav2_a_star_planner
+  my_nav2_bringup
+  turtlebot3
+  turtlebot3_simulations
 ```
-
-## Requirements
-
-- Ubuntu 22.04
-- ROS 2 Humble
 - Nav2
 - TurtleBot3 packages
 - Gazebo
